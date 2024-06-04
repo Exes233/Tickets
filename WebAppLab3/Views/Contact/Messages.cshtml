@@ -1,0 +1,28 @@
+﻿@model List<WebAppLab3.Models.ContactUsEntry>
+@{
+    ViewData["Title"] = "Messages";
+}
+<head><link rel="stylesheet" href="~/css/styles.css" /></head>
+<h2>Messages</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Email</th>
+            <th>Message</th>
+            <th>Timestamp</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var message in Model)
+        {
+                <tr>
+                    <td>@message.Id</td>
+                    <td>@message.Email</td>
+                    <td>@message.Message</td>
+                    <td>@message.Timestamp.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                </tr>
+        }
+    </tbody>
+</table>

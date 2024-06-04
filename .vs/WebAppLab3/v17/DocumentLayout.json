@@ -1,0 +1,500 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\views\\tickets\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\views\\tickets\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\views\\tickets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\views\\tickets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\models\\contactusentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\models\\contactusentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\models\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\models\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\views\\contact\\messages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\views\\contact\\messages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\helpers\\customhtmlhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\helpers\\customhtmlhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\views\\tickets\\_seatspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\views\\tickets\\_seatspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\webapplab3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\webapplab3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\webapplab3.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\webapplab3.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7128F063-9AEF-4E2D-A752-CDC834855537}|MLModel\\MLModel.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\mlmodel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7128F063-9AEF-4E2D-A752-CDC834855537}|MLModel\\MLModel.csproj|solutionrelative:mlmodel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7128F063-9AEF-4E2D-A752-CDC834855537}|MLModel\\MLModel.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\mlmodel\\mlmodel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7128F063-9AEF-4E2D-A752-CDC834855537}|MLModel\\MLModel.csproj|solutionrelative:mlmodel\\mlmodel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|f:\\\u0443\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\webapplab3\\webapplab3\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A7B739DF-5522-40E7-A8C3-61C0DCF53EC5}|WebAppLab3\\WebAppLab3.csproj|solutionrelative:webapplab3\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Book.cshtml",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Views\\Tickets\\Book.cshtml",
+              "RelativeDocumentMoniker": "WebAppLab3\\Views\\Tickets\\Book.cshtml",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Views\\Tickets\\Book.cshtml",
+              "RelativeToolTip": "WebAppLab3\\Views\\Tickets\\Book.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T19:59:49.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Program.cs",
+              "RelativeDocumentMoniker": "WebAppLab3\\Program.cs",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Program.cs",
+              "RelativeToolTip": "WebAppLab3\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T19:59:49.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Flight.cs",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Models\\Flight.cs",
+              "RelativeDocumentMoniker": "WebAppLab3\\Models\\Flight.cs",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Models\\Flight.cs",
+              "RelativeToolTip": "WebAppLab3\\Models\\Flight.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T19:59:49.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ContactUsEntry.cs",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Models\\ContactUsEntry.cs",
+              "RelativeDocumentMoniker": "WebAppLab3\\Models\\ContactUsEntry.cs",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Models\\ContactUsEntry.cs",
+              "RelativeToolTip": "WebAppLab3\\Models\\ContactUsEntry.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T19:59:49.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "WebAppLab3\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "WebAppLab3\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T19:59:49.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TicketsController.cs",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Controllers\\TicketsController.cs",
+              "RelativeDocumentMoniker": "WebAppLab3\\Controllers\\TicketsController.cs",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Controllers\\TicketsController.cs",
+              "RelativeToolTip": "WebAppLab3\\Controllers\\TicketsController.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAcwBsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T19:59:49.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "WebAppLab3\\Data\\AppDbContext.cs",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "WebAppLab3\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T09:56:35.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "WebAppLab3\\Models\\Comment.cs",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Models\\Comment.cs",
+              "RelativeToolTip": "WebAppLab3\\Models\\Comment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T16:41:40.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebAppLab3\\Controllers\\HomeController.cs",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebAppLab3\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T19:59:49.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebAppLab3\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "WebAppLab3\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAEMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T19:59:49.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebAppLab3\\Views\\Home\\Index.cshtml",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebAppLab3\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACgAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T19:59:49.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "WebAppLab3\\Controllers\\ContactController.cs",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "WebAppLab3\\Controllers\\ContactController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAowBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T19:59:49.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Views\\Tickets\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebAppLab3\\Views\\Tickets\\Index.cshtml",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Views\\Tickets\\Index.cshtml",
+              "RelativeToolTip": "WebAppLab3\\Views\\Tickets\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T19:59:49.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WebAppLab3\\Models\\ErrorViewModel.cs",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "WebAppLab3\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T19:59:49.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Messages.cshtml",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Views\\Contact\\Messages.cshtml",
+              "RelativeDocumentMoniker": "WebAppLab3\\Views\\Contact\\Messages.cshtml",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Views\\Contact\\Messages.cshtml",
+              "RelativeToolTip": "WebAppLab3\\Views\\Contact\\Messages.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T19:59:49.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "styles.css",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\wwwroot\\css\\styles.css",
+              "RelativeDocumentMoniker": "WebAppLab3\\wwwroot\\css\\styles.css",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\wwwroot\\css\\styles.css",
+              "RelativeToolTip": "WebAppLab3\\wwwroot\\css\\styles.css",
+              "ViewState": "AQIAACAAAAAAAAAAAAAYwIgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-18T19:59:49.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomHtmlHelpers.cs",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Helpers\\CustomHtmlHelpers.cs",
+              "RelativeDocumentMoniker": "WebAppLab3\\Helpers\\CustomHtmlHelpers.cs",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Helpers\\CustomHtmlHelpers.cs",
+              "RelativeToolTip": "WebAppLab3\\Helpers\\CustomHtmlHelpers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T19:59:49.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_SeatsPartial.cshtml",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Views\\Tickets\\_SeatsPartial.cshtml",
+              "RelativeDocumentMoniker": "WebAppLab3\\Views\\Tickets\\_SeatsPartial.cshtml",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Views\\Tickets\\_SeatsPartial.cshtml",
+              "RelativeToolTip": "WebAppLab3\\Views\\Tickets\\_SeatsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T19:59:49.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAppLab3\\appsettings.json",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\appsettings.json",
+              "RelativeToolTip": "WebAppLab3\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-18T19:59:49.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "WebAppLab3\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "WebAppLab3\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T19:59:49.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebAppLab3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebAppLab3\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T19:59:49.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "WebAppLab3.csproj",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\WebAppLab3.csproj",
+              "RelativeDocumentMoniker": "WebAppLab3\\WebAppLab3.csproj",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\WebAppLab3.csproj",
+              "RelativeToolTip": "WebAppLab3\\WebAppLab3.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-18T19:59:49.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebAppLab3\\Views\\_ViewStart.cshtml",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebAppLab3\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T11:03:13.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebAppLab3\\Views\\_ViewImports.cshtml",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebAppLab3\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T19:59:49.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "WebAppLab3",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\WebAppLab3.csproj",
+              "RelativeDocumentMoniker": "WebAppLab3\\WebAppLab3.csproj",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\WebAppLab3.csproj",
+              "RelativeToolTip": "WebAppLab3\\WebAppLab3.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-19T09:44:29.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\MLModel\\Program.cs",
+              "RelativeDocumentMoniker": "MLModel\\Program.cs",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\MLModel\\Program.cs",
+              "RelativeToolTip": "MLModel\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T19:59:49.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "WebAppLab3\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "WebAppLab3\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T19:59:49.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MLModel.csproj",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\MLModel\\MLModel.csproj",
+              "RelativeDocumentMoniker": "MLModel\\MLModel.csproj",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\MLModel\\MLModel.csproj",
+              "RelativeToolTip": "MLModel\\MLModel.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-18T19:59:49.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "site.css",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "WebAppLab3\\wwwroot\\css\\site.css",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "WebAppLab3\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-18T19:59:49.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebAppLab3\\Properties\\launchSettings.json",
+              "ToolTip": "F:\\\u0423\u043D\u0438\u0432\u0435\u0440\\4\u043A\u0443\u0440\u04412\u0441\u0435\u043C\\WebAppLab3\\WebAppLab3\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebAppLab3\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-18T19:59:49.983Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

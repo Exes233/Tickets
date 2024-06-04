@@ -1,0 +1,33 @@
+﻿@model List<WebAppLab3.Models.Flight>
+@{
+    ViewData["Title"] = "Explore flights";
+}
+<head>
+    <link rel="stylesheet" href="~/css/styles.css" />
+</head>
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+</style>
+<body>
+    <div class="container">
+        <h2 class="page-title">Flights</h2>
+        <ul>
+            @foreach (var flight in Model)
+            {
+                <li class="flight">
+                    <img src="@flight.ImagePath" alt="@flight.Name" class="flight-image" />
+                    <div class="flight-content">
+                        <strong class="flight-title">@flight.Name</strong>
+                        <p class="flight-description">@flight.Description</p>
+                        <a asp-action="Book" asp-route-id="@flight.Id" class="book-now-link">Book Now</a>
+                    </div>
+                </li>
+            }
+        </ul>
+    </div>
+</body>

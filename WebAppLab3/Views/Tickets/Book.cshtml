@@ -1,0 +1,307 @@
+﻿@model WebAppLab3.Models.Flight
+@{
+    ViewData["Title"] = "Book a seat";
+}
+<head>
+    <link rel="stylesheet" href="~/css/styles.css" />
+    <style>
+        #comments-section {
+            margin-top: 30px;
+            padding-top: 20px;
+        }
+
+            #comments-section h3 {
+                text-align: center;
+                margin-bottom: 20px;
+                color: #333;
+            }
+
+            #comments-section ul {
+                list-style: none;
+                padding: 5px;
+            }
+
+            #comments-section li {
+                margin-bottom: 30px;
+                border: 1px solid #ccc;
+                padding: 10px;
+                position: relative;
+                background-color: #f9f9f9;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+
+                #comments-section li .username {
+                    font-weight: bold;
+                    color: #007bff;
+                }
+
+                #comments-section li .rating {
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                    color: #ff9800;
+                }
+
+                #comments-section li .message {
+                    margin-top: 5px;
+                    margin-bottom: 10px; 
+                    color: #555;
+                    max-width: 75%; 
+                    word-wrap: break-word; 
+                    font-weight: 600;
+                }
+
+                #comments-section li .like-dislike {
+                    font-weight: 600;
+                    position: absolute;
+                    bottom: 3px;
+                    right: 10px;
+                }
+
+                #comments-section li .actions {
+                    position: absolute;
+                    bottom: 0px;
+                    right: 160px;
+                }
+
+                #comments-section li .timestamp {
+                    position: absolute;
+                    bottom: -25px; 
+                    right: 10px; 
+                    color: #888;
+                }
+
+        #commentForm {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+            #commentForm .form-group {
+                margin-bottom: 15px;
+            }
+
+            #commentForm label {
+                display: block;
+                font-weight: bold;
+                margin-bottom: 5px;
+                color: #007bff;
+            }
+
+            #commentForm input[type="text"],
+            #commentForm textarea,
+            #commentForm .form-control-range {
+                width: 100%;
+                padding: 8px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                box-sizing: border-box;
+            }
+
+            #commentForm textarea {
+                resize: vertical;
+            }
+
+            #commentForm #ratingValue {
+                display: inline-block;
+                width: 30px;
+                text-align: center;
+                font-weight: bold;
+                vertical-align: middle;
+            }
+
+            #commentForm button[type="button"] {
+                padding: 10px 20px;
+                background-color: #007bff;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+
+                #commentForm button[type="button"]:hover {
+                    background-color: #0056b3;
+                }
+    </style>
+
+</head>
+<h2>Book a Seat for @ViewData["FlightName"]</h2>
+<img src="@Model.ImagePath" alt="@ViewData["FlightName"]" class="flight-image" />
+
+<p>@ViewData["FlightDescription"]</p>
+
+<form id="bookingForm" asp-controller="Tickets" asp-action="Book" method="post">
+    <div class="seats-container">
+        @foreach (var seat in Model.Seats)
+        {
+            @Html.Partial("_SeatsPartial", seat)
+        }
+    </div>
+
+    <br />
+    <div id="selectedSeatInfo" class="centered"></div>
+    <button type="button" onclick="confirmBooking()" class="submit-button">Book!</button>
+
+    <div id="comments-section">
+        <h3>Comments:</h3>
+        <ul>
+            @foreach (var comment in Model.Comments)
+            {
+                <li>
+                    <span class="username">@comment.Username</span>
+                    <span class="rating">Rating: @comment.Rating</span>
+                    <p class="message">@comment.Message</p>
+                    <div class="actions">
+                        <button type="button" onclick="likeComment(@comment.Id)">Like</button>
+                        <button type="button" onclick="dislikeComment(@comment.Id)">Dislike</button>
+                    </div>
+                    <div class="like-dislike">
+                        <span>Likes: @comment.Likes</span>
+                        <span>Dislikes: @comment.Dislikes</span>
+                    </div>
+                    <span class="timestamp">Posted on: @comment.Timestamp</span>
+                </li>
+            }
+        </ul>
+    </div>
+    <form id="commentForm" asp-controller="Tickets" asp-action="AddComment" method="post">
+        <h3>Leave your own comment:</h3>
+        <input type="hidden" name="id" value="@Model.Id" />
+
+        <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" class="form-control" style="width: 30%;" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" class="form-control" style="width: 50%;" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="rating">Rating:</label>
+            <input type="range" id="rating" name="rating" min="1" max="10" class="form-control-range" required>
+            <span id="ratingValue">5</span>
+        </div>
+
+        <button type="button" class="btn btn-primary" onclick="addComment()">Add Comment</button>
+    </form>
+</form>
+@section Scripts
+{
+    <script>
+        var selectedSeatId;
+
+        function selectSeat(seatId) {
+            console.log(`Selecting seat ${seatId}`);
+
+            var seat = document.querySelector(`.seat[data-seat-id="${seatId}"]`);
+            if (!seat.classList.contains('booked')) {
+                var prevSelectedSeat = document.querySelector('.seat.selected');
+                if (prevSelectedSeat) {
+                    prevSelectedSeat.classList.remove('selected');
+                }
+
+                seat.classList.add('selected');
+                selectedSeatId = seatId;
+                var seatPrice = seat.dataset.seatPrice;
+                var seatNumber = seat.querySelector('.seat-number').innerText;
+                document.getElementById('selectedSeatInfo').innerText = `Selected Seat: ${seatNumber} (Price: ${seatPrice} UAH)`;
+            }
+        }
+
+        function confirmBooking() {
+            if (selectedSeatId !== null) {
+                console.log(`Confirming booking for seat ${selectedSeatId}`);
+
+                fetch(`/Tickets/Book?id=@Model.Id&selectedSeatId=${selectedSeatId}`, {
+                    method: 'POST'
+                })
+                    .then(response => {
+                        if (response.ok) {
+                            alert('Seat successfully booked.');
+                            location.reload();
+                        } else {
+                            response.text().then(error => {
+                                alert(`Error booking seat: ${error}`);
+                            });
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error during fetch:', error);
+                    });
+            } else {
+                alert("Please select a seat.");
+            }
+        }
+
+        function addComment() {
+            var id = @Model.Id;
+            var username = document.getElementById('username').value;
+            var message = document.getElementById('message').value;
+            var rating = document.getElementById('rating').value;
+
+            fetch(`/Tickets/AddComment?id=${id}&username=${username}&message=${message}&rating=${rating}`, {
+                method: 'POST'
+            })
+                .then(response => {
+                    if (response.ok) {
+                        alert('Comment added successfully.');
+                        location.reload();
+                    } else {
+                        response.text().then(error => {
+                            alert(`Error adding comment: ${error}`);
+                        });
+                    }
+                })
+                .catch(error => {
+                    console.error('Error during fetch:', error);
+                });
+        }
+
+        function likeComment(commentId) {
+            fetch(`/Tickets/LikeComment?commentId=${commentId}`, {
+                method: 'POST'
+            })
+                .then(response => {
+                    if (response.ok) {
+                        alert('Comment liked successfully.');
+                        location.reload();
+                    } else {
+                        response.text().then(error => {
+                            alert(`Error liking comment: ${error}`);
+                        });
+                    }
+                })
+                .catch(error => {
+                    console.error('Error during fetch:', error);
+                });
+        }
+
+        function dislikeComment(commentId) {
+            fetch(`/Tickets/DislikeComment?commentId=${commentId}`, {
+                method: 'POST'
+            })
+                .then(response => {
+                    if (response.ok) {
+                        alert('Comment disliked successfully.');
+                        location.reload();
+                    } else {
+                        response.text().then(error => {
+                            alert(`Error disliking comment: ${error}`);
+                        });
+                    }
+                })
+                .catch(error => {
+                    console.error('Error during fetch:', error);
+                });
+        }
+
+        document.getElementById('rating').addEventListener('input', function () {
+            document.getElementById('ratingValue').innerText = this.value;
+        });
+    </script>
+}

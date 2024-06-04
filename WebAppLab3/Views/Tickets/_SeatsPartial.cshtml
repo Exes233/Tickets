@@ -1,0 +1,5 @@
+﻿@model WebAppLab3.Models.Seat
+
+<div class="seat @(Model.IsBooked ? "booked" : "")" data-seat-id="@Model.Id" data-seat-price="@Model.Price" onclick="selectSeat(@Model.Id)">
+    <div class="seat-number">@Model.Number</div>
+</div>

@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tickets Online</title>
+    <link rel="stylesheet" href="~/css/styles.css" />
+    <style>
+        header h1 {
+            margin: 0;
+        }
+
+        .text-center {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .display-4 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <p>Explore the world with Tickets Online. Your gateway to seamless travel experiences.</p>
+        <a asp-controller="Tickets" asp-action="Index">Browse Flights</a>
+    </div>
+</body>
+</html>
